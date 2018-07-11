@@ -63,3 +63,21 @@
     font-size: 1.2rem;
   }
 }
+
+input[type=text] {
+  display: inline-block;
+  color: black;
+  padding: 10px;
+  width: 250px;
+  box-sizing: border-box;
+  background-color: $color-white;
+  border: none;
+  border-radius: 2px;
+  margin: 10px auto;
+  transition:background-color 0.5s ease;
+  flex: 1;
+}
+
+input[type=text]:focus, {
+  outline: none;
+}
