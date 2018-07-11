@@ -1,5 +1,5 @@
 import React from 'react';
-import { shallow, mount, render } from 'enzyme';
+import { shallow, mount, } from 'enzyme';
 import Avatar from './Avatar';
 import image from '../../assets/img/img_avatar.png';
 import image2 from '../../assets/img/img_avatar2.png';
