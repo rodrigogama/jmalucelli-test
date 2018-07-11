@@ -1,19 +1,23 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
 .btn {
   margin: 8px;
-  padding: 2rem;
+  padding: 3rem;
   font-size: 1.4rem;
   text-align: left;
-  color: #aa65f4;
-  background-color: #fff;
   border: none;
   outline: none;
   cursor: pointer; }
   .btn.primary {
     color: #fff;
-    background-color: #7ed56f; }
-  .btn:active {
-    background: black; }
+    background-color: #32CCCC; }
+    .btn.primary:hover {
+      background: #28a3a3; }
+  .btn.default {
+    color: #aa65f4;
+    background-color: #fff; }
+    .btn.default:hover {
+      background: #eee; }
   .btn__text-container {
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    font-weight: bold; }

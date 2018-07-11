@@ -2,26 +2,34 @@
 
 .btn {
   margin: 8px;
-  padding: 2rem;
+  padding: 3rem;
   font-size: $button-font-size;
   text-align: left;
-  color: #aa65f4;
-  background-color: #fff;
   border: none;
   outline: none;
   cursor: pointer;
 
   &.primary {
-    color: #fff;
-    background-color: $color-primary-light;
+    color: $color-white;
+    background-color: $color-primary;
+    
+    &:hover {
+      background: $color-primary-dark;
+    }
   }
 
-  &:active,{
-    background: black;
+  &.default {
+    color: $color-purple-light;
+    background-color: $color-white;
+    
+    &:hover {
+      background: $color-gray-light-2;
+    }
   }
 
   &__text-container {
     display: flex;
     justify-content: space-between;
+    font-weight: bold;
   }
 }

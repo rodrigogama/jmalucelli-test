@@ -1,14 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+.page-home {
+  color: #fff;
+  background: linear-gradient(#957cf1, #aa65f4); }
+
+.page-wrapper {
+  height: 100%;
+  width: 100%;
+  position: relative; }
+
 .page-container {
   height: 100%;
-  margin: 2rem;
   display: flex; }
 
-.flex-row {
-  flex-direction: row; }
+.page-default {
+  background: #F2F6F8;
+  color: #333; }
 
-.flex-column {
-  flex-direction: column; }
+.flex {
+  display: flex; }
+  .flex-grow {
+    flex-grow: 1; }
+  .flex-row {
+    flex-direction: row; }
+  .flex-column {
+    flex-direction: column; }
+  .flex-end {
+    justify-content: flex-end; }
 
 .icon__line-chart {
   text-align: center;
-  font-size: 1.4rem; }
+  font-size: 2rem; }
+
+.square {
+  height: 2.7rem;
+  width: 2.7rem;
+  border: 2px solid #957cf1;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .square__number {
+    font-size: 1.2rem; }

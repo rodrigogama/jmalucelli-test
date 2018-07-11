@@ -1,10 +1,35 @@
-.page-container {
-  height: 100%;
-  margin: 2rem;
-  display: flex;
+@import "./base/variables";
+
+.page {
+  &-home {
+    color: $color-white;
+    background: linear-gradient($color-purple-dark, $color-purple-light);
+  }
+
+  &-wrapper {
+    height: 100%;
+    width: 100%;
+    position: relative;
+  }
+
+  &-container {
+    height: 100%;
+    display: flex;
+  }
+
+  &-default {
+    background: $color-gray-light-1;
+    color: $color-gray-dark-3;
+  }
 }
 
 .flex {
+  display: flex;
+
+  &-grow {
+    flex-grow: 1;
+  }
+
   &-row {
     flex-direction: row;
   }
@@ -12,11 +37,29 @@
   &-column {
     flex-direction: column;
   }
+
+  &-end {
+    justify-content: flex-end;
+  }
 }
 
 .icon {
   &__line-chart {
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 2rem;
+  }
+}
+
+.square {
+  height: 2.7rem;
+  width: 2.7rem;
+  border: 2px solid $color-purple-dark;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__number {
+    font-size: 1.2rem;
   }
 }
