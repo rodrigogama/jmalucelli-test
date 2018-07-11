@@ -1,0 +1,14 @@
+.page-container {
+  height: 100%;
+  margin: 2rem;
+  display: flex; }
+
+.flex-row {
+  flex-direction: row; }
+
+.flex-column {
+  flex-direction: column; }
+
+.icon__line-chart {
+  text-align: center;
+  font-size: 1.4rem; }

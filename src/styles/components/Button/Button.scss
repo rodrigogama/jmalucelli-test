@@ -1,0 +1,27 @@
+@import "../../pages/base/variables";
+
+.btn {
+  margin: 8px;
+  padding: 2rem;
+  font-size: $button-font-size;
+  text-align: left;
+  color: #aa65f4;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  &.primary {
+    color: #fff;
+    background-color: $color-primary-light;
+  }
+
+  &:active,{
+    background: black;
+  }
+
+  &__text-container {
+    display: flex;
+    justify-content: space-between;
+  }
+}

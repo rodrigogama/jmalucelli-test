@@ -1,0 +1,22 @@
+.page-container {
+  height: 100%;
+  margin: 2rem;
+  display: flex;
+}
+
+.flex {
+  &-row {
+    flex-direction: row;
+  }
+
+  &-column {
+    flex-direction: column;
+  }
+}
+
+.icon {
+  &__line-chart {
+    text-align: center;
+    font-size: 1.4rem;
+  }
+}

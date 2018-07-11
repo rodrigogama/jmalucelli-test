@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+.btn {
+  margin: 8px;
+  padding: 2rem;
+  font-size: 1.4rem;
+  text-align: left;
+  color: #aa65f4;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer; }
+  .btn.primary {
+    color: #fff;
+    background-color: #7ed56f; }
+  .btn:active {
+    background: black; }
+  .btn__text-container {
+    display: flex;
+    justify-content: space-between; }
