@@ -81,3 +81,8 @@ input[type=text] {
 input[type=text]:focus, {
   outline: none;
 }
+
+input[type=text].input__cnpj {
+  margin: 0;
+  padding: 0 0 10px 0px;
+}

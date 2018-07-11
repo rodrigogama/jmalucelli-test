@@ -1,0 +1,14 @@
+@import "../../pages/base/variables";
+
+.status-icon {
+  font-size: $icon-font-size;
+  margin: auto;
+
+  &__valid {
+    color: $color-status-valid;
+  }
+
+  &__invalid {
+    color: $color-status-invalid;
+  }
+}
