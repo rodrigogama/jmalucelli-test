@@ -12,6 +12,6 @@ describe('Avatar Component', () => {
   it('should render the image passed as props', () => {
     const wrapper = mount(<Avatar src={image2}/>);
     const imgSrc = wrapper.find('.avatar-container').find('.avatar-img').prop('src');
-    expect(imgSrc).toEqual(image);
+    expect(imgSrc).toEqual(image2);
   });
 });
