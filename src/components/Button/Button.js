@@ -4,10 +4,11 @@ import '../../styles/components/Button/Button.css';
 
 class Button extends React.Component {
   render() {
-    const { text, color, showIcon, iconName, type, onClick } = this.props;
+    const { text, color, showIcon, iconName, type, onClick, style } = this.props;
 
     return (
       <button className={`btn ${color}`}
+        style={style}
         onClick={onClick}
         type={type}
       >

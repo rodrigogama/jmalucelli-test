@@ -6,7 +6,7 @@ import '../../styles/pages/pages.css';
 class Home extends React.Component {
   render() {
     return (
-      <div className="page-container flex-column">
+      <div className="page-container page-home flex-column flex-end">
         <i className="fa fa-line-chart icon__line-chart" aria-hidden="true" style={{marginBottom: '4rem'}}></i>
         <h1 style={{marginBottom: '1.5rem'}}>Cotação de seguros</h1>
         <span style={{marginBottom: '4.5rem'}}>Solução inovadora da líder de mercado</span>

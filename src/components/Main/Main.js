@@ -4,7 +4,7 @@ import Home from '../../pages/Home';
 import Cotacao from '../../pages/Cotacao';
 
 const Main = () => (
-  <div>
+  <div className="page-wrapper">
     <Switch>
       <Route exact path='/' component={Home}/>
       <Route exact path='/cotacao' component={Cotacao}/>
