@@ -24,7 +24,7 @@ class Button extends React.Component {
 
 Button.defaultProps = {
   showIcon: false,
-  iconName: 'arrow-right',
+  iconName: null,
   text: '',
   color: 'default',
   type: 'button',
