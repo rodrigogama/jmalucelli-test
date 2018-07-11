@@ -56,7 +56,7 @@ class Cotacao extends React.Component {
         </div>
 
         <div className="flex flex-row" style={{backgroundColor: '#fff', padding: '1.2rem 3.2rem'}}>
-          <div className="flex-column">
+          <div className="flex-column" style={{flex: '1'}}>
             <span>CNPJ / Empresa</span>
             <MaskedField className="input__cnpj" mask="99.999.999/9999-99" onComplete={(value) => this.onCompleteHandler(value)} onChange={(e) => { this.onChangeHandler(e.target.value); }} />
           </div>        
